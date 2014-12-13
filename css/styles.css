@@ -1,0 +1,40 @@
+.margin-top {
+    margin-top: 20px;
+}
+
+body {
+    color: silver;
+    background: #321926;
+    background: -webkit-linear-gradient(left, #37051f, #321926);
+    /* For Safari 5.1 to 6.0 */
+    
+    background: -o-linear-gradient(right, #37051f, #321926);
+    /* For Opera 11.1 to 12.0 */
+    
+    background: -moz-linear-gradient(right, #37051f, #321926);
+    /* For Firefox 3.6 to 15 */
+    
+    background: linear-gradient(to right, #37051f, #321926);
+    /* Standard syntax (must be last) */
+}
+
+.btn-primary {
+    color: silver;
+    background: #520732;
+    border-style: solid;
+    border-color: silver;
+    border-radius: 2px;
+}
+
+.btn-primary:hover {
+    color: silver;
+    background: #8C1444;
+    border-style: solid;
+    border-color: white;
+}
+
+.btn-primary:disabled {
+    background: #321524;
+    border-style: solid;
+    border-color: white;
+}

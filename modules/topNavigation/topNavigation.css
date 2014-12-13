@@ -1,0 +1,26 @@
+.menu-bar {
+    color: silver;
+    background: #520732;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    -webkit-border-image: -webkit-linear-gradient(left, silver, transparent) 1 0%;
+    -moz-border-image: -moz-linear-gradient(right, silver, transparent) 1 0%;
+    -o-border-image: -o-linear-gradient(right, silver, transparent) 1 0%;
+    border-image: linear-gradient(to right, silver, transparent) 1 0%;
+}
+
+#menu-logout,
+#anotherAction,
+#title {
+    color: silver;
+}
+
+#menubar-collapse,
+#menubar-collapse:hover,
+#menubar-collapse:active,
+#menubar-collapse:enabled,
+#menubar-collapse:checked,
+#menubar-collapse:focus,
+#menubar-collapse:disabled {
+    color: transparent;
+}

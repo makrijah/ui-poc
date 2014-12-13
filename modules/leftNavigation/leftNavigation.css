@@ -1,0 +1,120 @@
+.left-menu {}
+
+.left-menu>li {
+    margin: 3px;
+}
+/* Vertical navigation main navigation item. */
+
+.left-menu>li>a,
+.left-menu>li>a:focus,
+.left-menu>li>a:active {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #e9d7df;
+    background: #3b3d41;
+    /* Old browsers */
+    
+    background: -webkit-linear-gradient(left, #7b0032, transparent);
+    /* For Safari 5.1 to 6.0 */
+    
+    background: -o-linear-gradient(right, #7b0032, transparent);
+    /* For Opera 11.1 to 12.0 */
+    
+    background: -moz-linear-gradient(right, #7b0032, transparent);
+    /* For Firefox 3.6 to 15 */
+    
+    background: linear-gradient(to right, #7b0032, transparent);
+    /* Standard syntax (must be last) */
+    
+    border-width: 1px;
+    border-color: #7b0032;
+    border-style: outset;
+    border-radius: 2px;
+}
+
+.left-menu>li>a:hover {
+    color: white;
+    background: #3b3d41;
+    /* Old browsers */
+    
+    background: -webkit-linear-gradient(left, #8c1444, transparent);
+    /* For Safari 5.1 to 6.0 */
+    
+    background: -o-linear-gradient(right, #8c1444, transparent);
+    /* For Opera 11.1 to 12.0 */
+    
+    background: -moz-linear-gradient(right, #8c1444, transparent);
+    /* For Firefox 3.6 to 15 */
+    
+    background: linear-gradient(to right, #8c1444, transparent);
+    /* Standard syntax (must be last) */
+    
+    border-style: inset;
+}
+/* Vertical navigation 2nd level navigation items. */
+
+.left-menu>li>ul {
+    list-style: none;
+    padding-left: 3%;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 3%;
+    padding-right: 3%;
+}
+/* Vertical navigation 2nd level navigation item without subitems. */
+
+.left-menu>li>ul>li>a:only-child {
+    font-weight: bold;
+    color: #e9d7df;
+}
+
+.left-menu>li>ul>li>a:hover {
+    color: white;
+    text-decoration: none;
+    padding-left: 5%;
+}
+/* Vertical navigation 2nd level navigation item with subitems. */
+
+.left-menu>li>ul>li>a {
+    font-weight: bold;
+    color: #156570;
+    padding-left: 9px;
+}
+
+.left-menu>li>ul>li {
+    background: #3b3d41;
+    /* Old browsers */
+    
+    background: -webkit-linear-gradient(left, #7b0032, transparent);
+    /* For Safari 5.1 to 6.0 */
+    
+    background: -o-linear-gradient(right, #7b0032, transparent);
+    /* For Opera 11.1 to 12.0 */
+    
+    background: -moz-linear-gradient(right, #7b0032, transparent);
+    /* For Firefox 3.6 to 15 */
+    
+    background: linear-gradient(to right, #7b0032, transparent);
+    /* Standard syntax (must be last) */
+    
+    margin: 3px;
+    border-width: 1px;
+    border-color: #7b0032;
+    border-style: outset;
+    border-radius: 2px;
+}
+
+.left-menu>li>ul>li:hover {
+    border-style: inset;
+}
+
+.left-menu>li>ul>li>ul {
+    color: #282828;
+    font-weight: normal;
+    list-style: none;
+    padding-left: 42px;
+}
+
+.left-menu>li>ul>li>ul>li>a {
+    color: #282828;
+}

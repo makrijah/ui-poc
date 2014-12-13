@@ -1,0 +1,39 @@
+<!doctype html>
+<html ng-app="app">
+
+<head>
+    <meta charset="utf-8">
+    <title translate=""></title>
+    <meta name="description" content="Proof of concept">
+    <meta name="author" content="makrijah">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="lib/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="modules/leftNavigation/leftNavigation.css" />
+    <link rel="stylesheet" href="modules/topNavigation/topNavigation.css" />
+    <link rel="stylesheet" href="modules/footer/footer.css" />
+    <link rel="stylesheet" href="css/forms.css" />
+</head>
+
+<body>
+    <ng-include src="'modules/topNavigation/topNavigation.html'"></ng-include>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-12">
+                <ng-include src="'modules/leftNavigation/leftNavigation.html'"></ng-include>
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-12 paddedContent" ng-view=""></div>
+        </div>
+    </div>
+    <ng-include src="'modules/footer/footer.html'"></ng-include>
+    <script src="lib/angular.js"></script>
+    <script src="lib/jquery-2.1.1.js"></script>
+    <script src="lib/angular-route.js"></script>
+    <script src="app/app.js"></script>
+    <script src="modules/calendar/controller.js"></script>
+    <script src="modules/people/controller.js"></script>
+    <script src="modules/contact/controller.js"></script>
+    <script src="lib/dist/js/bootstrap.js"></script>
+</body>
+
+</html>
