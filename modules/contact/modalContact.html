@@ -5,7 +5,7 @@
             <form class="form-horizontal" name="message" ng-submit="message.$valid" novalidate="novalidate">
                 <div class="form-group">
                     <div class="col-lg-2 col-xs-12">
-                        <label for="sender">contact.sender</label>
+                        <label for="sender">contact.sjljklj</label>
                     </div>
                     <div class="col-lg-10  col-xs-12">
                         <input type="email" id="sender" placeholder="email" class="smoothInput" required="required" ng-model="message.sender" />
@@ -29,11 +29,15 @@
                 </div>
                 <div class="form-group">
                     <div class="col-lg-2 col-lg-offset-2 col-xs-6">
-                        <input type="button" id="submit" value="contact.submit" class="btn btn-primary" ng-disabled="message.$invalid" />
+                        <input type="button" id="submit" value="contact.submit" class="btn btn-primary" ng-disabled="message.$invalid" ng-click="submitMessage()" />
                     </div>
                     <div class="col-lg-2 col-xs-6">
-                        <input type="button" id="reset" value="contact.reset" class="btn btn-primary" modal-contact />
+                        <input type="button" id="reset" value="contact.reset" class="btn btn-primary" ng-click="resetFields()" />
                     </div>
+                    <div class="col-lg-2 col-xs-6">
+                        <input type="button" id="close" value="contact.close" class="btn btn-primary" ng-click="closeDialog()" />
+                    </div>
+                    <div modal-contact></div>
                 </div>
             </form>
         </fieldset>

@@ -1,5 +1,6 @@
 var app = angular.module('app', [
-    'ngRoute'
+    'ngRoute',
+    'ngDialog'
 ]);
 
 app.config(['$routeProvider',
@@ -22,3 +23,9 @@ app.config(['$routeProvider',
             });
            }
            ]);
+
+app.controller('TopNavigationController', ['$scope', function ($scope) {
+    $scope.callModal = function () {
+        alert('Hello');
+    }
+}]);

@@ -1,145 +1,86 @@
-.contactForm {}
-
-.form-group>input,
-.form-group>textarea,
-.smoothInput {
-    padding: 5px;
-    background: transparent;
-    border-color: silver;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 5px;
-}
-
-#formFieldset {
-    padding-left: 20px;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 5px;
-}
-
-.paddedContent {
-    padding-right: 5%;
-    padding-left: 3%;
-    padding-bottom: 5%;
-    margin-bottom: 5%;
-    padding-top: 3%;
-}
-
-fieldset {
-    padding-right: 40px;
-}
-
-fieldset>legend {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 20px;
-    border-bottom: 1px solid transparent;
-    width: inherit;
-    margin-bottom: 0;
-    margin-left: 1.4em;
-    font-size: 1.4em;
-    color: silver;
-}
-
-fieldset.fieldset-border {
-    border: 1px groove #ddd !important;
-    padding: 1.4em 1.4em 1.4em 0 !important;
-    margin: 0 0 1.5em 0 !important;
-    -webkit-box-shadow: 0px 0px 0px 0px #000;
-    box-shadow: 0px 0px 0px 0px #000;
-}
-
-#message {
-    width: 100%;
-}
-
-.form-horizontal input.ng-invalid.ng-touched,
-.form-horizontal textarea.ng-invalid.ng-touched {
-    background-color: #841343;
-    border-color: #73071D;
-}
-
-.form-horizontal input.ng-valid.ng-touched,
-.form-horizontal textarea.ng-valid.ng-touched {
-    background-color: transparent;
-}
-
-######################not smooth#################### .contactForm {}
-
-.form-group>input,
-.form-group>textarea,
-.smoothInput {
-    padding: 5px;
-    background: #270419;
-    border-color: #7b0032;
-    border-style: inset;
-    border-width: 1px;
-    border-radius: 2px;
-}
-
-.form-group {
-    border-color: #7b0032;
-    border-style: outset;
-    border-width: 1px;
-    border-radius: 2px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    background: #36061F;
-}
-
-#formFieldset {
-    padding-left: 30px;
-    border-style: outset;
-    border-width: 1px;
-    border-radius: 2px;
-    border-color: #7b0032;
-    background: #31071B;
-}
-
-.paddedContent {
-    padding-right: 5%;
-    padding-left: 3%;
-    padding-bottom: 5%;
-    margin-bottom: 5%;
-    padding-top: 3%;
-}
-
-fieldset {
-    padding-right: 40px;
-}
-
-fieldset>legend {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 20px;
-    border-bottom: 1px solid transparent;
-    width: inherit;
-    margin-bottom: 0;
-    margin-left: 1.4em;
-    font-size: 1.4em;
-    color: silver;
-}
-
-fieldset.fieldset-border {
-    border: 1px groove #ddd !important;
-    padding: 1.4em 1.4em 1.4em 0 !important;
-    margin: 0 0 1.5em 0 !important;
-    -webkit-box-shadow: 0px 0px 0px 0px #000;
-    box-shadow: 0px 0px 0px 0px #000;
-}
-
-#message {
-    width: 100%;
-}
-
-.form-horizontal input.ng-invalid.ng-touched,
-.form-horizontal textarea.ng-invalid.ng-touched {
-    background-color: #841343;
-    border-color: #73071D;
-}
-
-.form-horizontal input.ng-valid.ng-touched,
-.form-horizontal textarea.ng-valid.ng-touched {
-    background-color: transparent;
-}
+ .contactForm {}
+ 
+ .form-group>input,
+ .form-group>textarea,
+ .smoothInput {
+     padding: 05px;
+     background: #270419;
+     border-color: #7b0032;
+     border-style: inset;
+     border-width: 1px;
+     border-radius: 2px;
+ }
+ 
+ .form-group {
+     border-color: #7b0032;
+     border-style: outset;
+     border-width: 1px;
+     border-radius: 2px;
+     padding-top: 7px;
+     margin-bottom: 2px;
+     padding-bottom: 7px;
+     background: #36061F;
+     background: linear-gradient(to top, #36061F, transparent);
+     /* Standard syntax (must be last) */
+ }
+ 
+ .form-group:last-child {
+     margin-bottom: 20px;
+ }
+ 
+ #formFieldset {
+     padding-left: 30px;
+     border-style: outset;
+     border-width: 1px;
+     border-radius: 2px;
+     border-color: #7b0032;
+     background: #31071B;
+     background: linear-gradient(to top, #31071B, transparent);
+ }
+ 
+ .paddedContent {
+     padding-right: 5%;
+     padding-left: 3%;
+     padding-bottom: 5%;
+     margin-bottom: 5%;
+     padding-top: 3%;
+ }
+ 
+ fieldset {
+     padding-right: 40px;
+ }
+ 
+ fieldset>legend {
+     padding-left: 10px;
+     padding-right: 10px;
+     margin-left: 20px;
+     border-bottom: 1px solid transparent;
+     width: inherit;
+     margin-bottom: 0;
+     margin-left: 1.4em;
+     font-size: 1.4em;
+     color: silver;
+ }
+ 
+ fieldset.fieldset-border {
+     border: 1px groove #ddd !important;
+     padding: 1.4em 1.4em 1.4em 0 !important;
+     margin: 0 0 1.5em 0 !important;
+     -webkit-box-shadow: 0px 0px 0px 0px #000;
+     box-shadow: 0px 0px 0px 0px #000;
+ }
+ 
+ #message {
+     width: 100%;
+ }
+ 
+ .form-horizontal input.ng-invalid.ng-touched,
+ .form-horizontal textarea.ng-invalid.ng-touched {
+     background-color: #841343;
+     border-color: #73071D;
+ }
+ 
+ .form-horizontal input.ng-valid.ng-touched,
+ .form-horizontal textarea.ng-valid.ng-touched {
+     background-color: transparent;
+ }

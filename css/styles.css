@@ -18,23 +18,76 @@ body {
     /* Standard syntax (must be last) */
 }
 
-.btn-primary {
+.btn-primary,
+.btn-primary:focus {
     color: silver;
     background: #520732;
     border-style: solid;
     border-color: silver;
     border-radius: 2px;
+    background: linear-gradient(to top, #520732, transparent);
 }
 
 .btn-primary:hover {
     color: silver;
     background: #8C1444;
     border-style: solid;
-    border-color: white;
+    border-color: silver;
+    background: linear-gradient(to top, #520732, #8C1444);
 }
 
 .btn-primary:disabled {
     background: #321524;
     border-style: solid;
-    border-color: white;
+    border-color: silver;
+    background: linear-gradient(to top, #520732, #321524);
+}
+
+.ngdialog.ngdialog-theme-default .ngdialog-content {
+    background: #7B0032;
+    background: linear-gradient(to top, #270214, #7B0032);
+    /* Standard syntax (must be last) */
+    
+    border-radius: 2px;
+    border-width: 1px;
+    border-style: outset;
+    border-color: #7b0032;
+    color: silver;
+    width: 80%;
+}
+
+.ngdialog.ngdialog-theme-default .ngdialog-close {
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.ngdialog.ngdialog-theme-default .ngdialog-close:before {
+    background: transparent;
+    border-radius: 3px;
+    color: #bbb;
+    content: '\00D7';
+    font-size: 26px;
+    font-weight: 400;
+    height: 30px;
+    line-height: 26px;
+    position: absolute;
+    right: 3px;
+    text-align: center;
+    top: 3px;
+    width: 30px;
+}
+
+.ngdialog .form-group {
+    background: linear-gradient(to top, #270214, #7B0032);
+    /* Standard syntax (must be last) */
+    /* Standard syntax (must be last) */
+}
+
+.ngdialog #formFieldset {
+    background: linear-gradient(to top, #270214, #7B0032);
+    /* Standard syntax (must be last) */
+    /* Standard syntax (must be last) */
 }
